@@ -1,0 +1,10 @@
+@media only screen and (min-width: 600px) {
+  .profile-picture {
+    border-radius: 50%; /* makes the picture round */
+    width: 300px; /* sets the width of the picture */
+    height: 300px; /* sets the height of the picture */
+    border: 3px solid #333; /* adds a border */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* adds a shadow */
+    margin-bottom: 10px;
+  }
+}

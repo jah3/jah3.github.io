@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f1f1f1;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+}
+
+header nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 1em;
+}
+
+.home {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home h1,
+.home h2 {
+  margin-bottom: 1em;
+}
+.home .btn {
+  text-decoration: none;
+  padding: 0.5em 1em;
+  border: 1px solid #333;
+  border-radius: 5px;
+  color: #333;
+  transition: all 0.3s ease-in-out;
+}
+
+.home .btn:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.projects {
+  padding: 2em;
+}
+
+.projects .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.projects h2 {
+  margin-bottom: 2em;
+}
+
+.projects ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.projects li {
+  background-color: #fff;
+  padding: 1em;
+  margin: 1em;
+  width: 300px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.projects li h3,
+.projects li p {
+  margin-bottom: 0.5em;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.projects li a {
+  text-decoration: none;
+  color: #333;
+  transition: all 0.3s ease-in-out;
+}
+
+.projects li a:hover {
+  color: #fff;
+  background-color: #333;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+}
+
+.about {
+  padding: 2em;
+}
+
+.about .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
+
+.projects li img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-bottom: 15px;
+}
+
+hr {
+  border: 0;
+  height: 0.5px;
+  background-color: #ccc;
+}
+.profile-picture {
+  border-radius: 50%; /* makes the picture round */
+  width: 200px; /* sets the width of the picture */
+  height: 200px; /* sets the height of the picture */
+  border: 3px solid #333; /* adds a border */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* adds a shadow */
+  margin-bottom: 10px;
+}
